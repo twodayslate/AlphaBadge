@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Alpha</string>
+			<key>footerText</key>
+			<string>Changes will not be made until a respring or the badge is drawn again.</string>
+			<key>footerAlignment</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>default</key>
+			<integer>100</integer>
+			<key>min</key>
+			<integer>0</integer>
+			<key>max</key>
+			<integer>100</integer>
+			<key>defaults</key>
+			<string>com.twodayslate.alphabadge</string>
+			<key>key</key>
+			<string>alpha</string>
+			<key>id</key>
+			<string>alpha</string>
+			<key>label</key>
+			<string>Alpha</string>
+			<key>showValue</key>
+			<true/>
+			<key>PostNotification</key>
+			<string>com.twodayslate.alphabadge/settingschanged</string>
+		</dict>
+
+	</array>
+	<key>title</key>
+	<string>AlphaBadge</string>
+</dict>
+</plist>

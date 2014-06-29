@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = BadgePref;
+	cell = PSLinkCell;
+	detail = BadgePrefListController;
+	icon = settings.png;
+	isController = 1;
+	label = "AlphaBadge";
+    };
+}

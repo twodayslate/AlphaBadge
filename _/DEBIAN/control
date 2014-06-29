@@ -1,0 +1,11 @@
+Package: com.twodayslate.alphabadge
+Name: AlphaBadge
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Change the transparency of your badges!
+Maintainer: twodayslate
+Author: twodayslate
+Section: Tweaks
+Icon: file:///Library/PreferenceBundles/BadgePref.bundle/icon.png
+Version: 1.0-1
+Installed-Size: 184
