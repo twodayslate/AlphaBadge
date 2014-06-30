@@ -11,7 +11,6 @@
 %hook SBIconBadgeView
 
 -(void)setAlpha:(CGFloat)arg1 {
-	%log;
 	CGFloat myAlpha = [[[NSUserDefaults standardUserDefaults] objectForKey:@"alpha" inDomain:@"com.twodayslate.alphabadge"] floatValue]/100;
 	if(arg1 > myAlpha) {
 		arg1 = myAlpha;
@@ -22,4 +21,5 @@
 
 %ctor {
 	dlopen("/Library/MobileSubstrate/DynamicLibraries/ColorBadges.dylib", RTLD_NOW);
+	dlopen("/Library/MobileSubstrate/DynamicLibraries/Apex.dylib", RTLD_NOW);
 }

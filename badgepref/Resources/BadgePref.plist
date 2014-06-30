@@ -37,6 +37,21 @@
 			<string>com.twodayslate.alphabadge/settingschanged</string>
 		</dict>
 
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+            <key>cell</key>
+            <string>PSButtonCell</string>
+            <key>label</key>
+            <string>Save and Respring</string>
+            <key>id</key>
+            <string>respring</string>
+            <key>action</key>
+            <string>respring</string>
+        </dict>
+
 	</array>
 	<key>title</key>
 	<string>AlphaBadge</string>
