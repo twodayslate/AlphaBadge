@@ -22,4 +22,6 @@
 %ctor {
 	dlopen("/Library/MobileSubstrate/DynamicLibraries/ColorBadges.dylib", RTLD_NOW);
 	dlopen("/Library/MobileSubstrate/DynamicLibraries/Apex.dylib", RTLD_NOW);
+	dlopen("/Library/MobileSubstrate/DynamicLibraries/Springtomize3.dylib", RTLD_NOW);
+	dlopen("/Library/MobileSubstrate/DynamicLibraries/SpringtomizeUbiquitous.dylib", RTLD_NOW);
 }
